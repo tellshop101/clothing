@@ -1,0 +1,82 @@
+[
+    {
+        "id": 2001,
+        "name": "Amazon Essentials Women's Classic-Fit Long Sleeve V-Neck T-Shirt",
+        "asin": "B06XZ5X7VH",
+        "img": "https://m.media-amazon.com/images/I/71D7DPOPFQL._AC_UY218_.jpg",
+        "desc": "A classic essential V-neck tee in soft cotton. Classic fit with clean lines perfect for everyday styling and layering.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 2002,
+        "name": "Levi's Women's Classic Straight Jeans",
+        "asin": "B07B9J3Q7M",
+        "img": "https://m.media-amazon.com/images/I/71Fk2YEzfJL._AC_UY218_.jpg",
+        "desc": "Relaxed through hip and thigh with a straight leg. Sits at the waist for a timeless look that pairs well with anything.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 2003,
+        "name": "Daily Ritual Women's Terry Cotton and Modal Blend Relaxed Fit Hoodie",
+        "asin": "B08HD85WKN",
+        "img": "https://m.media-amazon.com/images/I/71sGSPvQeQL._AC_UY218_.jpg",
+        "desc": "Incredibly soft modal blend hoodie with a relaxed fit. Cozy enough for lounging, stylish enough for errands.",
+        "status": "Available"
+    },
+    {
+        "id": 2004,
+        "name": "GRACE KARIN Women's Floral Swing A-Line Dress Short Sleeve",
+        "asin": "B09YLVGXLF",
+        "img": "https://m.media-amazon.com/images/I/61h3Ei2WBZL._AC_UY218_.jpg",
+        "desc": "Floral print swing dress with a flattering A-line silhouette. Short sleeves and a flowy skirt perfect for warm days and occasions.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 2005,
+        "name": "Amazon Essentials Women's Relaxed Fit Fleece Pullover Sweatshirt",
+        "asin": "B07BKW6XC2",
+        "img": "https://m.media-amazon.com/images/I/71bLqR3UkBL._AC_UY218_.jpg",
+        "desc": "Soft fleece pullover with a relaxed, cozy fit. Crew neck design in a range of versatile colors for everyday comfort.",
+        "status": "Available"
+    },
+    {
+        "id": 2006,
+        "name": "Lee Women's Legendary Slim Straight Jean",
+        "asin": "B08X5L3SK2",
+        "img": "https://m.media-amazon.com/images/I/81bxqVDCTIL._AC_UY218_.jpg",
+        "desc": "Slim straight leg with a high rise for a flattering silhouette. Stretch denim provides all-day comfort and shape retention.",
+        "status": "Available"
+    },
+    {
+        "id": 2007,
+        "name": "Dokotoo Women's Oversized Ribbed Turtleneck Chunky Knit Sweater",
+        "asin": "B0BLNFJ66B",
+        "img": "https://m.media-amazon.com/images/I/71wAPG1TBkL._AC_UY218_.jpg",
+        "desc": "Oversized turtleneck sweater in a chunky ribbed knit. Warm, cozy, and on-trend for the cooler seasons.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 2008,
+        "name": "Amazon Essentials Women's Jersey Slim-Fit Cropped Pant",
+        "asin": "B09QN2CH4X",
+        "img": "https://m.media-amazon.com/images/I/71K1qsz2VjL._AC_UY218_.jpg",
+        "desc": "Slim-fit cropped pants in stretch jersey fabric. Comfortable elastic waist with a polished look for office or casual outings.",
+        "status": "Available"
+    },
+    {
+        "id": 2009,
+        "name": "Daily Ritual Women's Ponte Knit Long-Sleeve Fit-and-Flare Dress",
+        "asin": "B07WDTV8XN",
+        "img": "https://m.media-amazon.com/images/I/61-UcfGBD4L._AC_UY218_.jpg",
+        "desc": "Ponte knit fit-and-flare dress with long sleeves. Structured fabric holds its shape while the flared skirt adds feminine flair.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 2010,
+        "name": "Under Armour Women's HeatGear Armour High-Waisted Leggings",
+        "asin": "B07VBP1LSN",
+        "img": "https://m.media-amazon.com/images/I/41S7fEMvBQL._AC_UY218_.jpg",
+        "desc": "High-waisted compression leggings with HeatGear fabric that wicks sweat and dries fast. Flatlock seams prevent chafing.",
+        "status": "Best Seller"
+    }
+]

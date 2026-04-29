@@ -1,0 +1,66 @@
+[
+    {
+        "id": 4001,
+        "name": "Nike Men's Dri-FIT Legend Short-Sleeve Training T-Shirt",
+        "asin": "B01NBPJXF8",
+        "img": "https://m.media-amazon.com/images/I/61eDCX8bAkL._AC_UY218_.jpg",
+        "desc": "Nike Dri-FIT technology wicks sweat away to help you stay dry and comfortable during intense workouts.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 4002,
+        "name": "Adidas Women's Believe This 2.0 High-Rise 7/8 Tights",
+        "asin": "B07PKQRSHM",
+        "img": "https://m.media-amazon.com/images/I/71UdLVj8oUL._AC_UY218_.jpg",
+        "desc": "High-rise 7/8 length workout tights with moisture-wicking Climalite fabric. Flatlock seams and a secure pocket for essentials.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 4003,
+        "name": "Under Armour Men's UA Tech 2.0 ½ Zip Long Sleeve Shirt",
+        "asin": "B07X1KN6Q6",
+        "img": "https://m.media-amazon.com/images/I/61mH7-SXTZL._AC_UY218_.jpg",
+        "desc": "HeatGear half-zip pullover with anti-odor technology. Loose, comfortable fit for training and outdoor activities.",
+        "status": "Available"
+    },
+    {
+        "id": 4004,
+        "name": "Hanes Women's EcoSmart Capri Sweatpant",
+        "asin": "B08HC2Q5Y1",
+        "img": "https://m.media-amazon.com/images/I/71aYJiCAPsL._AC_UY218_.jpg",
+        "desc": "Eco-friendly capri sweatpants made with recycled plastic bottles. Elastic waistband with drawcord for a customizable fit.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 4005,
+        "name": "Amazon Essentials Men's Athletic-Fit Quick-Dry Golf Polo Shirt",
+        "asin": "B07BKCP4CP",
+        "img": "https://m.media-amazon.com/images/I/71q6TfQ1LoL._AC_UY218_.jpg",
+        "desc": "Quick-dry polo shirt with moisture management technology. Athletic fit with stretch fabric for golf and active lifestyle.",
+        "status": "Available"
+    },
+    {
+        "id": 4006,
+        "name": "Champion Women's Powerblend Pullover Hoodie",
+        "asin": "B07BRRFP89",
+        "img": "https://m.media-amazon.com/images/I/71gS4T1-Z2L._AC_UY218_.jpg",
+        "desc": "Powerblend fleece that's up to 50% stronger. Reduced pilling for long-lasting looks. Classic athletic style with kangaroo pocket.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 4007,
+        "name": "Nike Men's Club Fleece Jogger Pants",
+        "asin": "B00GDACKVK",
+        "img": "https://m.media-amazon.com/images/I/71YILilYUOL._AC_UY218_.jpg",
+        "desc": "Nike Club Fleece joggers with an elastic waistband and side pockets. Tapered fit that transitions seamlessly from gym to street.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 4008,
+        "name": "Adidas Women's Essentials Slim Tapered Pants",
+        "asin": "B09VKXBQC2",
+        "img": "https://m.media-amazon.com/images/I/71Wqz5cSEBL._AC_UY218_.jpg",
+        "desc": "Slim tapered sweatpants with Adidas signature three stripes. Moisture-managing fabric and a high-rise fit for active days.",
+        "status": "Available"
+    }
+]

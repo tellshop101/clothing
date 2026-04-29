@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1001,
+        "name": "Carhartt Men's Loose Fit Heavyweight Short-Sleeve Pocket T-Shirt",
+        "asin": "B0BQKRQZFG",
+        "img": "https://m.media-amazon.com/images/I/81s8BcZMF+L._AC_UY218_.jpg",
+        "desc": "Heavyweight cotton t-shirt with a relaxed fit and chest pocket. Built tough for work or casual wear with Carhartt's signature durability.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 1002,
+        "name": "Levi's Men's 511 Slim Fit Jeans",
+        "asin": "B01N1Z0WF5",
+        "img": "https://m.media-amazon.com/images/I/61VPCWkON8L._AC_UY218_.jpg",
+        "desc": "Classic slim fit jeans that sit below the waist with a slim leg from hip to ankle. Versatile style for everyday casual wear.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 1003,
+        "name": "Amazon Essentials Men's Regular-Fit Long-Sleeve Plaid Flannel Shirt",
+        "asin": "B07CTGD2P3",
+        "img": "https://m.media-amazon.com/images/I/91cW4TZOPHL._AC_UY218_.jpg",
+        "desc": "Soft flannel shirt in a classic plaid pattern. Regular fit for comfortable all-day wear. Perfect for layering in cooler months.",
+        "status": "Available"
+    },
+    {
+        "id": 1004,
+        "name": "Columbia Men's Steens Mountain Full Zip 2.0 Soft Fleece Jacket",
+        "asin": "B001EQCO7S",
+        "img": "https://m.media-amazon.com/images/I/71aRxTcFaHL._AC_UY218_.jpg",
+        "desc": "Cozy full-zip fleece jacket with two hand pockets. Lightweight warmth perfect for layering or wearing on its own in mild weather.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 1005,
+        "name": "Hanes Men's EcoSmart Fleece Pullover Hoodie Sweatshirt",
+        "asin": "B00GQ7LFLC",
+        "img": "https://m.media-amazon.com/images/I/91HMxSAFjuL._AC_UY218_.jpg",
+        "desc": "Made with up to 5% recycled plastic bottles. Soft fleece with a kangaroo pocket and ribbed cuffs and waistband for a cozy fit.",
+        "status": "Available"
+    },
+    {
+        "id": 1006,
+        "name": "IZOD Men's Advantage Performance Flat Front Straight Fit Chino Pant",
+        "asin": "B01MR8VDCE",
+        "img": "https://m.media-amazon.com/images/I/71mTLpSOJBL._AC_UY218_.jpg",
+        "desc": "Stretch performance chino pants with moisture-wicking technology. Straight fit with a flat front for a polished casual look.",
+        "status": "Available"
+    },
+    {
+        "id": 1007,
+        "name": "Under Armour Men's Tech 2.0 Short Sleeve T-Shirt",
+        "asin": "B07HLYCNQZ",
+        "img": "https://m.media-amazon.com/images/I/71q4WCHkLRL._AC_UY218_.jpg",
+        "desc": "Ultra-soft, textured fabric with moisture-wicking properties. Anti-odor technology keeps you fresh during workouts and daily activities.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 1008,
+        "name": "Wrangler Authentics Men's Classic 5-Pocket Regular Fit Cotton Jean",
+        "asin": "B0CH5J2KL9",
+        "img": "https://m.media-amazon.com/images/I/71LjFl-zVkL._AC_UY218_.jpg",
+        "desc": "Classic 5-pocket jeans with a regular fit through the seat and thigh. Durable cotton denim built to last through everyday wear.",
+        "status": "Available"
+    },
+    {
+        "id": 1009,
+        "name": "Amazon Essentials Men's Slim-Fit Short-Sleeve V-Neck T-Shirt, Pack of 5",
+        "asin": "B06XZ68ZPG",
+        "img": "https://m.media-amazon.com/images/I/81YmByGz7UL._AC_UY218_.jpg",
+        "desc": "Pack of 5 slim-fit V-neck tees in everyday essential colors. Soft cotton blend fabric perfect for layering or wearing solo.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 1010,
+        "name": "Goodthreads Men's Slim-Fit Long-Sleeve Henley Shirt",
+        "asin": "B07BC71JTZ",
+        "img": "https://m.media-amazon.com/images/I/71vCivGaqVL._AC_UY218_.jpg",
+        "desc": "Soft, washed fabric henley with a slim fit. Casual button placket design perfect for relaxed everyday wear.",
+        "status": "Available"
+    }
+]

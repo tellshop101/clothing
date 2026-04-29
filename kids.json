@@ -1,0 +1,66 @@
+[
+    {
+        "id": 3001,
+        "name": "Amazon Essentials Girls' Long-Sleeve T-Shirts, Pack of 6",
+        "asin": "B082Q4MZ4X",
+        "img": "https://m.media-amazon.com/images/I/813RN6xBfWL._AC_UY218_.jpg",
+        "desc": "6-pack of long-sleeve cotton t-shirts in a variety of colors. Tagless for comfort, easy to mix and match for school or play.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 3002,
+        "name": "Levi's Boys' 511 Slim Fit Performance Jeans",
+        "asin": "B07X9B5P5K",
+        "img": "https://m.media-amazon.com/images/I/71AX8fPHHyL._AC_UY218_.jpg",
+        "desc": "Slim fit jeans with stretch for easy movement. Soft and durable with an adjustable waistband for a growing fit.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 3003,
+        "name": "Carter's Girls' Fleece Pullover Sweatshirt",
+        "asin": "B09LP2MWPK",
+        "img": "https://m.media-amazon.com/images/I/71d7p5+JQZL._AC_UY218_.jpg",
+        "desc": "Soft cozy fleece pullover with fun graphic prints. Easy to put on and take off, perfect for layering on school days.",
+        "status": "Available"
+    },
+    {
+        "id": 3004,
+        "name": "Amazon Essentials Boys' Uniform Straight-Leg Pant, Pack of 2",
+        "asin": "B07BKT61QM",
+        "img": "https://m.media-amazon.com/images/I/71lT5jQAeXL._AC_UY218_.jpg",
+        "desc": "2-pack of classic uniform pants in wrinkle-resistant fabric. Reinforced knees and adjustable waist for growing kids.",
+        "status": "Best Seller"
+    },
+    {
+        "id": 3005,
+        "name": "Hanes Boys' EcoSmart Open-Bottom Fleece Sweatpants",
+        "asin": "B00GKFNUZK",
+        "img": "https://m.media-amazon.com/images/I/81p0Ztu-lFL._AC_UY218_.jpg",
+        "desc": "Soft fleece sweatpants with pockets and an elastic waistband. Made with recycled materials for comfortable everyday wear.",
+        "status": "Available"
+    },
+    {
+        "id": 3006,
+        "name": "Adidas Girls' Tiro Track Pants",
+        "asin": "B09VKXQ7NR",
+        "img": "https://m.media-amazon.com/images/I/71cH2IYFe-L._AC_UY218_.jpg",
+        "desc": "Classic Adidas track pants with three stripes down the side. Moisture-wicking fabric keeps kids comfortable during sports and play.",
+        "status": "Amazon's Choice"
+    },
+    {
+        "id": 3007,
+        "name": "Amazon Essentials Girls' Uniform Ponte Stretch Skirt",
+        "asin": "B07BCRY94Y",
+        "img": "https://m.media-amazon.com/images/I/81WKnDjwHdL._AC_UY218_.jpg",
+        "desc": "Ponte fabric skirt with an easy pull-on elastic waistband. Comfortable fit perfect for school uniform requirements.",
+        "status": "Available"
+    },
+    {
+        "id": 3008,
+        "name": "Columbia Boys' Steens Mountain II Fleece Jacket",
+        "asin": "B07DX93LJY",
+        "img": "https://m.media-amazon.com/images/I/81I1k7-6p1L._AC_UY218_.jpg",
+        "desc": "Lightweight full-zip fleece jacket with two hand pockets. Cozy warmth for cool-weather adventures and school days.",
+        "status": "Available"
+    }
+]
