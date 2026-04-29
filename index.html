@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -123,8 +123,8 @@
                     colors: {
                         brand: {
                             primary: '#C2522D',
-                            dark: '#0B0F1A',
-                            card: '#111827'
+                            dark: '#f8fafc',
+                            card: '#ffffff'
                         }
                     }
                 }
@@ -433,7 +433,10 @@
             position: relative;
             overflow: hidden;
             min-height: 580px;
-            background: var(--h-ink);
+            background: linear-gradient(180deg, rgba(255,255,255,.95) 0%, rgba(248,250,252,.90) 100%),
+                        url('nexora-og.jpg') center/cover no-repeat;
+            background-size: cover;
+            border-bottom: 1px solid rgba(148,163,184,.14);
         }
         @media (min-width: 768px) { .hero-desk { display: flex; align-items: stretch; } }
 
@@ -747,22 +750,24 @@
         ══════════════════════════════════════════ */
 
         .hero-mob {
-            display: none;
+            display: block;
             position: relative;
             overflow: hidden;
         }
         @media (min-width: 768px) { .hero-mob { display: none; } }
 
-        /* ── Dark background with layered depth ── */
+        /* ── Light hero background with image overlay ── */
         .hm-scene {
             position: relative;
             min-height: 360px;
-            background: #03060e;
+            background: linear-gradient(180deg, rgba(255,255,255,.9) 0%, rgba(247,250,252,.88) 100%),
+                        url('nexora-og.jpg') center/cover no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             padding: 0 0 28px;
             overflow: hidden;
+            color: #0f172a;
         }
 
         /* Diagonal colour shard — top-right accent */
@@ -770,7 +775,7 @@
             position: absolute;
             top: 0; right: 0;
             width: 65%; height: 100%;
-            background: linear-gradient(160deg, #0d1f3c 0%, #091428 60%, transparent 100%);
+            background: linear-gradient(160deg, rgba(255,255,255,.95) 0%, rgba(248,250,252,.92) 60%, transparent 100%);
             clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
             pointer-events: none;
         }
@@ -781,7 +786,7 @@
             top: -50px; right: -50px;
             width: 240px; height: 240px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(194,82,45,.28) 0%, transparent 65%);
+            background: radial-gradient(circle, rgba(194,82,45,.22) 0%, transparent 65%);
             filter: blur(45px);
             pointer-events: none;
             animation: hmGlowDrift 7s ease-in-out infinite;
@@ -792,7 +797,7 @@
             bottom: -30px; left: -30px;
             width: 180px; height: 180px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(244,162,97,.15) 0%, transparent 65%);
+            background: radial-gradient(circle, rgba(244,162,97,.14) 0%, transparent 65%);
             filter: blur(40px);
             pointer-events: none;
             animation: hmGlowDrift 9s ease-in-out infinite reverse;
@@ -827,8 +832,8 @@
         }
         .hm-tag-chip {
             display: flex; align-items: center; gap: 5px;
-            background: rgba(255,255,255,.055);
-            border: 1px solid rgba(255,255,255,.09);
+            background: rgba(255,255,255,.88);
+            border: 1px solid rgba(148,163,184,.15);
             border-radius: 100px;
             padding: 5px 10px;
             backdrop-filter: blur(8px);
@@ -844,10 +849,9 @@
         .hm-tag-chip span:last-child {
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 9px; font-weight: 700;
-            color: rgba(255,255,255,.55);
+            color: #475569;
             letter-spacing: .04em;
         }
-        html:not(.dark) .hm-tag-chip span:last-child { color: rgba(255,255,255,.7); }
 
         /* ── Big decorative number / wordmark ── */
         .hm-deco-num {
@@ -872,8 +876,8 @@
         /* Live badge */
         .hm-live {
             display: inline-flex; align-items: center; gap: 6px;
-            background: rgba(194,82,45,.14);
-            border: 1px solid rgba(194,82,45,.3);
+            background: rgba(255,255,255,.95);
+            border: 1px solid rgba(148,163,184,.2);
             border-radius: 100px;
             padding: 4px 10px 4px 7px;
             margin-bottom: 14px;
@@ -892,9 +896,8 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 9px; font-weight: 800;
             letter-spacing: .2em; text-transform: uppercase;
-            color: #fbd5c5;
+            color: #475569;
         }
-        html:not(.dark) .hm-live span { color: #C2522D; }
 
         /* Headline */
         .hm-h1 {
@@ -903,7 +906,7 @@
             font-size: 2rem;
             line-height: 1.1;
             letter-spacing: -.035em;
-            color: #f1f5f9;
+            color: #0f172a;
             margin-bottom: 10px;
         }
         .hm-h1-grad {
@@ -917,7 +920,7 @@
         .hm-sub {
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: .78rem; font-weight: 400; line-height: 1.65;
-            color: rgba(255,255,255,.4);
+            color: #475569;
             margin-bottom: 22px;
             max-width: 280px;
         }
@@ -944,16 +947,16 @@
         .hm-cta-ghost {
             display: inline-flex; align-items: center; gap: 6px;
             padding: 11px 16px;
-            background: rgba(255,255,255,.06);
-            color: rgba(255,255,255,.55);
+            background: rgba(255,255,255,.88);
+            color: #475569;
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 12px; font-weight: 700;
-            border: 1px solid rgba(255,255,255,.1);
+            border: 1px solid rgba(148,163,184,.25);
             border-radius: 10px; cursor: pointer;
             transition: all .2s ease;
             text-decoration: none;
         }
-        .hm-cta-ghost:active { background: rgba(255,255,255,.1); }
+        .hm-cta-ghost:active { background: rgba(255,255,255,.98); }
         .hm-cta-ghost i { font-size: 9px; }
 
         /* ── Stats strip ── */
@@ -972,13 +975,13 @@
         .hm-stat-n {
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 1.1rem; font-weight: 800; line-height: 1;
-            color: #f1f5f9;
+            color: #0f172a;
         }
         .hm-stat-n sup { font-size: .65em; color: #f4a261; }
         .hm-stat-l {
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 8px; font-weight: 600;
-            color: rgba(255,255,255,.3);
+            color: #64748b;
             text-transform: uppercase; letter-spacing: .1em;
             margin-top: 3px;
         }
