@@ -440,14 +440,13 @@
             pointer-events: none;
             z-index: 1;
         }
-        @media (min-width: 768px) { .hero-desk { display: flex; align-items: center; justify-content: center; } }
+        @media (min-width: 768px) { .hero-desk { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding-bottom: 40px; } }
 
         .hd-left {
             position: relative;
             z-index: 3;
-            width: 50%;
-            max-width: 620px;
-            margin-left: 5%;
+            width: min(720px, calc(100% - 72px));
+            margin: 0 auto;
             padding: 72px 64px 64px;
             background: var(--h-panel);
             border: 1px solid var(--h-panel-border);
@@ -555,19 +554,21 @@
         .hd-right {
             position: relative;
             z-index: 3;
-            width: 43%;
+            width: min(520px, calc(100% - 72px));
+            margin: 32px auto 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 56px 5% 56px 2%;
+            padding: 56px 5% 56px;
         }
         .hd-right::before {
             content: '';
             position: absolute;
             top: 20%;
-            left: 8%;
-            width: 380px;
-            height: 380px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 280px;
+            height: 280px;
             border-radius: 50%;
             background: rgba(236,72,153,0.14);
             filter: blur(72px);
@@ -674,7 +675,7 @@
         @media (max-width: 1023px) {
             .hero-desk { min-height: 760px; flex-direction: column; justify-content: flex-end; }
             .hd-left { width: calc(100% - 36px); margin: 0 18px 20px; padding: 48px 32px 42px; }
-            .hd-right { width: calc(100% - 36px); padding: 0 18px 36px; }
+            .hd-right { width: calc(100% - 36px); margin: 20px auto 0; padding: 0 18px 36px; }
             .hd-right::before { display: none; }
             .hd-hero-card { min-height: 520px; }
         }
