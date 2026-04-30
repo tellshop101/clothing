@@ -433,29 +433,10 @@
             position: relative;
             overflow: hidden;
             min-height: 580px;
-            background: #fdf2f8;
-            border-bottom: 1px solid rgba(219,39,119,.14);
-            isolation: isolate;
-        }
-        .hero-desk::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: url('hero-bg.jpg') center/cover no-repeat;
+            background: linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(253,242,248,.90) 100%),
+                        url('hero-bg.jpg') center/cover no-repeat;
             background-size: cover;
-            filter: blur(12px) saturate(1.08) brightness(0.92);
-            transform: scale(1.04);
-            opacity: 0.88;
-            pointer-events: none;
-            z-index: 1;
-        }
-        .hero-desk::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(180deg, rgba(255,255,255,.62) 0%, rgba(248,244,248,.50) 48%, rgba(255,255,255,.70) 100%);
-            pointer-events: none;
-            z-index: 2;
+            border-bottom: 1px solid rgba(219,39,119,.14);
         }
         @media (min-width: 768px) { .hero-desk { display: flex; align-items: stretch; } }
 
@@ -779,44 +760,14 @@
         .hm-scene {
             position: relative;
             min-height: 360px;
-            background: #fdf2f8;
+            background: linear-gradient(180deg, rgba(255,255,255,.92) 0%, rgba(253,242,248,.90) 100%),
+                        url('hero-bg.jpg') center/cover no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             padding: 0 0 28px;
             overflow: hidden;
             color: #0f172a;
-            isolation: isolate;
-        }
-        .hm-scene::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: url('hero-bg.jpg') center/cover no-repeat;
-            background-size: cover;
-            filter: blur(14px) saturate(1.08) brightness(0.92);
-            transform: scale(1.03);
-            opacity: 0.92;
-            pointer-events: none;
-            z-index: 1;
-        }
-        .hm-scene::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(180deg, rgba(255,255,255,.78) 0%, rgba(248,250,252,.82) 42%, rgba(255,255,255,.9) 100%);
-            pointer-events: none;
-            z-index: 2;
-        }
-        .hm-scene .hm-shard,
-        .hm-scene .hm-glow-tr,
-        .hm-scene .hm-glow-bl,
-        .hm-scene .hm-dots-bg,
-        .hm-scene .hm-tags-row,
-        .hm-scene .hm-deco-num,
-        .hm-scene .hm-content {
-            position: relative;
-            z-index: 3;
         }
 
         /* Diagonal colour shard — top-right accent */
