@@ -690,7 +690,7 @@
             categoryKeys = categoryList.map(cat => cat.name);
             categoryGroups = {};
             const fileEntries = categoryList.flatMap(cat => {
-                categoryGroups[cat.name] = cat.subcategories.map(sub => sub.name);
+                categoryGroups[cat.name] = { subcategories: cat.subcategories.map(sub => sub.name) };
                 return cat.subcategories.map(sub => ({ category: cat.name, subcategory: sub.name, file: sub.file }));
             });
 
@@ -833,7 +833,7 @@
                 btn.type = 'button';
                 btn.className = 'cat-chip cat-dropdown-trigger ' + (key === currentFilter ? 'active-chip ' : '') + 'bg-gray-100 dark:bg-gray-800/50 text-gray-500 whitespace-nowrap px-4 py-1.5 rounded-lg font-bold text-[9px] uppercase tracking-widest transition-all';
                 btn.dataset.cat = key;
-                btn.innerHTML = `${prettyNames[key] || key}${categoryGroups[key]?.length ? ' <i class="fas fa-chevron-down text-[8px]"></i>' : ''}`;
+                btn.innerHTML = `${prettyNames[key] || key}${categoryGroups[key]?.subcategories?.length ? ' <i class="fas fa-chevron-down text-[8px]"></i>' : ''}`;
                 btn.addEventListener('click', function(e) {
                     e.stopPropagation();
                     if (categoryGroups[key]?.length) {
