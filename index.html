@@ -279,25 +279,35 @@
         }
 
         .bar-btn {
-            display: flex;
-            flex-direction: column;
+            display: inline-flex;
             align-items: center;
-            gap: 3px;
+            justify-content: center;
+            width: 52px;
+            height: 52px;
             color: #9ca3af;
-            transition: color 0.2s;
-            padding: 4px 20px 0;
+            transition: color 0.2s, transform 0.2s ease;
             background: none;
             border: none;
+            border-radius: 16px;
             cursor: pointer;
         }
-        .bar-btn:hover { color: #DB2777; }
-        .bar-btn span {
-            font-size: 7px;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
+        .bar-btn:hover,
+        .bar-btn.active {
+            color: #DB2777;
+            transform: translateY(-1px);
         }
-        .bar-notch-gap { width: 72px; flex-shrink: 0; }
+        .bar-btn .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        .bar-notch-gap { display: none; }
 
         
     </style>
@@ -1254,21 +1264,27 @@
 
     <div class="mobile-bottom-bar lg:hidden">
 
-        <!-- Left button -->
-        <button onclick="scrollToTop(); clearSearch();" class="bar-btn">
-            <i class="fas fa-home text-base"></i>
-            <span>Home</span>
+        <button onclick="filterCategory('All', this)" class="bar-btn" aria-label="Home">
+            <i class="fas fa-home text-lg"></i>
+            <span class="sr-only">Home</span>
         </button>
 
-        <!-- Center gap for the notch -->
-        <div class="bar-notch-gap"></div>
-
-        <!-- Right button: shows "Back" when product modal is open, otherwise "More" -->
-        <button id="bar-more-btn" onclick="handleBarMoreBtn()" class="bar-btn">
-            <i id="bar-more-icon" class="fas fa-plus-circle text-base"></i>
-            <span id="bar-more-label">More</span>
+        <button onclick="filterCategory('Mens', this)" class="bar-btn" aria-label="Mens">
+            <i class="fas fa-mars text-lg"></i>
+            <span class="sr-only">Mens</span>
         </button>
 
-        <!-- Amazon 3D button sits in the notch -->
-        <a href="https://amzn.to/4sxqzNO" class="amazon-3d" aria-label="Shop on Amazon">
-            <img src="amazon-btn.jpg" class="w-full h-full object-cover rounded-full blend-img">
+        <button onclick="filterCategory('Womens', this)" class="bar-btn" aria-label="Womens">
+            <i class="fas fa-venus text-lg"></i>
+            <span class="sr-only">Womens</span>
+        </button>
+
+        <button onclick="filterCategory('Kids', this)" class="bar-btn" aria-label="Kids">
+            <i class="fas fa-child text-lg"></i>
+            <span class="sr-only">Kids</span>
+        </button>
+
+        <button onclick="filterCategory('Activewear', this)" class="bar-btn" aria-label="Activewear">
+            <i class="fas fa-dumbbell text-lg"></i>
+            <span class="sr-only">Activewear</span>
+        </button>
