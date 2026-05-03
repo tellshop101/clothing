@@ -62,37 +62,5 @@
         "img": "https://m.media-amazon.com/images/I/81I1k7-6p1L._AC_UY218_.jpg",
         "desc": "Lightweight full-zip fleece jacket with two hand pockets. Cozy warmth for cool-weather adventures and school days.",
         "status": "Available"
-    },
-    {
-        "id": 5001,
-        "name": "Nike Boys' Dri-FIT Athletic Shorts",
-        "asin": "B08K3JM6Z1",
-        "img": "https://m.media-amazon.com/images/I/71L0AGNpzOL._AC_UY218_.jpg",
-        "desc": "Breathable athletic shorts with sweat-wicking fabric and an adjustable waistband. Designed for sports and active play.",
-        "status": "Available"
-    },
-    {
-        "id": 5002,
-        "name": "Justice Girls' High-Waist Leggings Set",
- "asin": "B07Y4D4HHQ",
- "img": "https://m.media-amazon.com/images/I/71Cv3j1yv5L._AC_UY218_.jpg",
- "desc": "Soft high-waist leggings with colorful prints, perfect for school, dance, and after-school fun.",
- "status": "Best Seller"
-    },
-    {
-        "id": 5003,
-        "name": "The North Face Boys' Hooded Rain Jacket",
-        "asin": "B07H9PFYP3",
-        "img": "https://m.media-amazon.com/images/I/71KZtzbC9mL._AC_UY218_.jpg",
-        "desc": "Waterproof hooded jacket with taped seams and zip hand pockets. Ready for rainy day adventures and outdoor play.",
-        "status": "Amazon's Choice"
-    },
-    {
-        "id": 5004,
-        "name": "Gap Kids Girls' Performance Training Top",
-        "asin": "B091Y3Q5CZ",
-        "img": "https://m.media-amazon.com/images/I/71X8KZ5uz9L._AC_UY218_.jpg",
-        "desc": "Lightweight training top with moisture-wicking fabric and a comfy relaxed fit for sports and movement.",
-        "status": "Available"
     }
 ]

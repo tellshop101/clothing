@@ -62,37 +62,5 @@
         "img": "https://m.media-amazon.com/images/I/71Wqz5cSEBL._AC_UY218_.jpg",
         "desc": "Slim tapered sweatpants with Adidas signature three stripes. Moisture-managing fabric and a high-rise fit for active days.",
         "status": "Available"
-    },
-    {
-        "id": 4009,
-        "name": "Under Armour Men's Training Shorts",
-        "asin": "B0869Y1Z8M",
-        "img": "https://m.media-amazon.com/images/I/71yNn3qixyL._AC_UY218_.jpg",
-        "desc": "Lightweight training shorts with breathable mesh and fast-drying fabric for gym workouts and runs.",
-        "status": "Available"
-    },
-    {
-        "id": 4010,
-        "name": "Lululemon Women's High-Rise Align Leggings",
-        "asin": "B07MKZCGKW",
-        "img": "https://m.media-amazon.com/images/I/71vQratKgbL._AC_UY218_.jpg",
-        "desc": "Soft, high-rise yoga leggings with sweat-wicking fabric and four-way stretch for movement and recovery days.",
-        "status": "Best Seller"
-    },
-    {
-        "id": 4011,
-        "name": "Patagonia Unisex Trail Running Jacket",
-        "asin": "B07J4T5H2D",
-        "img": "https://m.media-amazon.com/images/I/71Qy2H0QfCL._AC_UY218_.jpg",
-        "desc": "Lightweight, water-resistant running jacket with ventilation and a packable design for trail and road runs.",
-        "status": "Available"
-    },
-    {
-        "id": 4012,
-        "name": "Reebok Women's Studio Crop Top",
-        "asin": "B08KG9Z1SQ",
-        "img": "https://m.media-amazon.com/images/I/71EZJ1G3ceL._AC_UY218_.jpg",
-        "desc": "Breathable crop top with supportive fit and quick-dry fabric for studio workouts and yoga classes.",
-        "status": "Available"
     }
 ]

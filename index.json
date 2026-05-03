@@ -1,53 +1,8 @@
 {
   "categories": [
-    {
-      "name": "Men",
-      "subcategories": [
-        { "name": "Shirts", "file": "mens/shirts.json" },
-        { "name": "Jeans", "file": "mens/jeans.json" },
-        { "name": "Outerwear", "file": "mens/outerwear.json" },
-        { "name": "Workwear", "file": "mens/workwear.json" },
-        { "name": "Accessories", "file": "mens/accessories.json" }
-      ]
-    },
-    {
-      "name": "Women",
-      "subcategories": [
-        { "name": "Dresses", "file": "womens/dresses.json" },
-        { "name": "Tops", "file": "womens/tops.json" },
-        { "name": "Active", "file": "womens/active.json" },
-        { "name": "Loungewear", "file": "womens/loungewear.json" },
-        { "name": "Accessories", "file": "womens/accessories.json" }
-      ]
-    },
-    {
-      "name": "Boys",
-      "subcategories": [
-        { "name": "T-Shirts", "file": "boys/t-shirts.json" },
-        { "name": "Jeans", "file": "boys/jeans.json" },
-        { "name": "Jackets", "file": "boys/jackets.json" },
-        { "name": "Athletic", "file": "boys/athletic.json" },
-        { "name": "Essentials", "file": "boys/essentials.json" }
-      ]
-    },
-    {
-      "name": "Girls",
-      "subcategories": [
-        { "name": "Dresses", "file": "girls/dresses.json" },
-        { "name": "Tops", "file": "girls/tops.json" },
-        { "name": "Leggings", "file": "girls/leggings.json" },
-        { "name": "Outerwear", "file": "girls/outerwear.json" },
-        { "name": "Accessories", "file": "girls/accessories.json" }
-      ]
-    },
-    {
-      "name": "Activewear",
-      "subcategories": [
-        { "name": "Tops", "file": "activewear/tops.json" },
-        { "name": "Bottoms", "file": "activewear/bottoms.json" },
-        { "name": "Outerwear", "file": "activewear/outerwear.json" },
-        { "name": "Accessories", "file": "activewear/accessories.json" }
-      ]
-    }
+    { "name": "Mens",       "file": "mens.json"       },
+    { "name": "Womens",     "file": "womens.json"     },
+    { "name": "Kids",       "file": "kids.json"       },
+    { "name": "Activewear", "file": "activewear.json" }
   ]
 }

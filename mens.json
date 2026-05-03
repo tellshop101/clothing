@@ -78,37 +78,5 @@
         "img": "https://m.media-amazon.com/images/I/71vCivGaqVL._AC_UY218_.jpg",
         "desc": "Soft, washed fabric henley with a slim fit. Casual button placket design perfect for relaxed everyday wear.",
         "status": "Available"
-    },
-    {
-        "id": 1011,
-        "name": "Carhartt Men's Work Shirt - Short Sleeve",
-        "asin": "B086ZC85QK",
-        "img": "https://m.media-amazon.com/images/I/81y1tQ9mbtL._AC_UY218_.jpg",
-        "desc": "Durable work shirt with reinforced seams and chest pockets. Built for workshops, weekend projects, and rugged everyday use.",
-        "status": "Available"
-    },
-    {
-        "id": 1012,
-        "name": "Levi's Men's 502 Regular Taper Jeans",
-        "asin": "B01M0I9WQW",
-        "img": "https://m.media-amazon.com/images/I/71b65uV42EL._AC_UY218_.jpg",
-        "desc": "Stretch denim jeans with a comfortable regular taper. A modern wardrobe essential for smart-casual and off-duty looks.",
-        "status": "Best Seller"
-    },
-    {
-        "id": 1013,
-        "name": "Columbia Men's Lightweight Packable Jacket",
-        "asin": "B07BGVQGVY",
-        "img": "https://m.media-amazon.com/images/I/61Ww2vW1JfL._AC_UY218_.jpg",
-        "desc": "Water-resistant jacket with a packable design and adjustable hood. Ideal outerwear for travel, hiking, and everyday weather protection.",
-        "status": "Available"
-    },
-    {
-        "id": 1014,
-        "name": "Tommy Hilfiger Men's Leather Belt",
-        "asin": "B07R6K7Q1L",
-        "img": "https://m.media-amazon.com/images/I/71X7lU0Z0pL._AC_UY218_.jpg",
-        "desc": "Classic leather belt with a polished metal buckle. A versatile accessory that finishes jeans, chinos, and dress pants.",
-        "status": "Available"
     }
 ]
