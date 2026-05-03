@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3407,
+    "name": "Nike Dri-FIT Headband",
+    "asin": "B07K2F4GR9",
+    "img": "https://m.media-amazon.com/images/I/61Y-axXuaVL._AC_UY218_.jpg",
+    "desc": "Sweat-wicking headband to keep hair and sweat out of your face.",
+    "status": "Available"
+  },
+  {
+    "id": 3408,
+    "name": "Adidas Training Socks 3-Pack",
+    "asin": "B07Y3Q5BGJ",
+    "img": "https://m.media-amazon.com/images/I/71Bp4C1nSkL._AC_UY218_.jpg",
+    "desc": "Cushioned performance socks for workouts and sports.",
+    "status": "Available"
+  }
+]

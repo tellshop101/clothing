@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2003,
+    "name": "Levi's Men's 502 Regular Taper Jeans",
+    "asin": "B01M0I9WQW",
+    "img": "https://m.media-amazon.com/images/I/71b65uV42EL._AC_UY218_.jpg",
+    "desc": "Stretch denim with a regular taper for comfortable everyday wear.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 2004,
+    "name": "Wrangler Authentics Men's Classic 5-Pocket Regular Fit Jean",
+    "asin": "B0CH5J2KL9",
+    "img": "https://m.media-amazon.com/images/I/71LjFl-zVkL._AC_UY218_.jpg",
+    "desc": "Durable classic jean with a relaxed fit through the seat and thigh.",
+    "status": "Available"
+  }
+]

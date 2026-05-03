@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3405,
+    "name": "The North Face Active Zip-Up Hoodie",
+    "asin": "B08T6LMZ5L",
+    "img": "https://m.media-amazon.com/images/I/71GP0g20obL._AC_UY218_.jpg",
+    "desc": "Lightweight hoodie with a comfortable fit and soft stretch.",
+    "status": "Available"
+  },
+  {
+    "id": 3406,
+    "name": "Columbia Windbreaker Jacket",
+    "asin": "B08HY8ZF56",
+    "img": "https://m.media-amazon.com/images/I/71Mkd8eEMpL._AC_UY218_.jpg",
+    "desc": "Wind-resistant jacket designed for active outdoor training.",
+    "status": "Available"
+  }
+]

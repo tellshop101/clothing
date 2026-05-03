@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3107,
+    "name": "Hanes Women's EcoSmart Capri Sweatpant",
+    "asin": "B08HC2Q5Y1",
+    "img": "https://m.media-amazon.com/images/I/71aYJiCAPsL._AC_UY218_.jpg",
+    "desc": "Soft capri sweatpants made with recycled materials for cozy lounge days.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3108,
+    "name": "Amazon Essentials Women's Hoodie",
+    "asin": "B07QKJBP17",
+    "img": "https://m.media-amazon.com/images/I/81hmH6rJELL._AC_UY218_.jpg",
+    "desc": "Comfortable hoodie with a relaxed fit and soft interior fleece.",
+    "status": "Available"
+  }
+]

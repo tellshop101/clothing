@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2001,
+    "name": "Carhartt Men's Short-Sleeve Work Shirt",
+    "asin": "B08P3HTJ5R",
+    "img": "https://m.media-amazon.com/images/I/81y1tQ9mbtL._AC_UY218_.jpg",
+    "desc": "Durable short-sleeve shirt with reinforced seams and pockets built for the job site.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 2002,
+    "name": "Amazon Essentials Men's Regular-Fit Oxford Shirt",
+    "asin": "B07M9ZKQLY",
+    "img": "https://m.media-amazon.com/images/I/71ssChuGuSL._AC_UY218_.jpg",
+    "desc": "Classic Oxford shirt with a relaxed fit and soft fabric for everyday office and weekend wear.",
+    "status": "Available"
+  }
+]

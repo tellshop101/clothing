@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3303,
+    "name": "Justice Girls' Graphic Tee",
+    "asin": "B08P1Q8ZJC",
+    "img": "https://m.media-amazon.com/images/I/71Cv3j1yv5L._AC_UY218_.jpg",
+    "desc": "Soft cotton tee with a fun graphic design for everyday wear.",
+    "status": "Available"
+  },
+  {
+    "id": 3304,
+    "name": "H&M Girls' Ribbed Tank Top",
+    "asin": "B09Q7F7RQ8",
+    "img": "https://m.media-amazon.com/images/I/71sxRzR75bL._AC_UY218_.jpg",
+    "desc": "Lightweight ribbed tank top with a comfortable stretchy fit.",
+    "status": "Available"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3305,
+    "name": "Justice Girls' High-Waist Leggings",
+    "asin": "B07Y4D4HHQ",
+    "img": "https://m.media-amazon.com/images/I/71Cv3j1yv5L._AC_UY218_.jpg",
+    "desc": "Stretchy high-waist leggings in vibrant prints for school and play.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3306,
+    "name": "Under Armour Girls' Favorite Leggings",
+    "asin": "B08D8WC4G2",
+    "img": "https://m.media-amazon.com/images/I/71U9sH7gF9L._AC_UY218_.jpg",
+    "desc": "Soft, four-way stretch leggings that keep their shape through activity.",
+    "status": "Available"
+  }
+]

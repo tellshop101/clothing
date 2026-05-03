@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3201,
+    "name": "Nike Boys' Dri-FIT T-Shirt",
+    "asin": "B07K28ZQR3",
+    "img": "https://m.media-amazon.com/images/I/71L0AGNpzOL._AC_UY218_.jpg",
+    "desc": "Soft athletic tee with sweat-wicking Dri-FIT fabric for active kids.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3202,
+    "name": "Amazon Essentials Boys' Graphic Tee",
+    "asin": "B07P9M6WV2",
+    "img": "https://m.media-amazon.com/images/I/71gXyLxVS0L._AC_UY218_.jpg",
+    "desc": "Casual graphic tee in a pack of two for everyday school and play.",
+    "status": "Available"
+  }
+]

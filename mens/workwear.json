@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2007,
+    "name": "Dickies Men's Long Sleeve Work Shirt",
+    "asin": "B07H4M4R1C",
+    "img": "https://m.media-amazon.com/images/I/71vLp3p0nKL._AC_UY218_.jpg",
+    "desc": "Heavyweight work shirt with stain release and secure chest pockets.",
+    "status": "Available"
+  },
+  {
+    "id": 2008,
+    "name": "Calvin Klein Men's Slim Fit Dress Shirt",
+    "asin": "B011A7KVNW",
+    "img": "https://m.media-amazon.com/images/I/71boSlFqXYL._AC_UY218_.jpg",
+    "desc": "Polished slim-fit dress shirt for office and business casual styling.",
+    "status": "Best Seller"
+  }
+]

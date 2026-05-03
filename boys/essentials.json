@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3209,
+    "name": "Amazon Essentials Boys' Uniform Pants",
+    "asin": "B07BKT61QM",
+    "img": "https://m.media-amazon.com/images/I/71lT5jQAeXL._AC_UY218_.jpg",
+    "desc": "Wrinkle-resistant uniform pants with adjustable waist and reinforced knees.",
+    "status": "Available"
+  },
+  {
+    "id": 3210,
+    "name": "Hanes Boys' EcoSmart Sweatpants",
+    "asin": "B00GKFNUZK",
+    "img": "https://m.media-amazon.com/images/I/81p0Ztu-lFL._AC_UY218_.jpg",
+    "desc": "Cozy fleece sweatpants made with up to 5% recycled materials.",
+    "status": "Available"
+  }
+]

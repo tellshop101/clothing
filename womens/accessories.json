@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3109,
+    "name": "Kate Spade New York Straw Tote",
+    "asin": "B07VX5P3DF",
+    "img": "https://m.media-amazon.com/images/I/61YOJ7RiyKL._AC_UY218_.jpg",
+    "desc": "Stylish straw tote with leather trim and interior pockets.",
+    "status": "Available"
+  },
+  {
+    "id": 3110,
+    "name": "Fossil Women's Leather Wallet",
+    "asin": "B079T5MMC7",
+    "img": "https://m.media-amazon.com/images/I/71PhuU5qTkL._AC_UY218_.jpg",
+    "desc": "Compact leather wallet with card slots and zipper closure.",
+    "status": "Available"
+  }
+]

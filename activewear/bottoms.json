@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3403,
+    "name": "Adidas Training Shorts",
+    "asin": "B08LN6YQ4X",
+    "img": "https://m.media-amazon.com/images/I/71wjHtP8YQL._AC_UY218_.jpg",
+    "desc": "Comfortable shorts with moisture-managing fabric for runs and gym sessions.",
+    "status": "Available"
+  },
+  {
+    "id": 3404,
+    "name": "Lululemon Align High-Rise Leggings",
+    "asin": "B07PL7L5VN",
+    "img": "https://m.media-amazon.com/images/I/71pR-mgqGjL._AC_UY218_.jpg",
+    "desc": "Soft leggings made for low-impact exercise and everyday comfort.",
+    "status": "Best Seller"
+  }
+]

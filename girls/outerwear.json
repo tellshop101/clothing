@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3307,
+    "name": "Columbia Girls' Lightweight Jacket",
+    "asin": "B07T6KTY8P",
+    "img": "https://m.media-amazon.com/images/I/81CzlX1D3CL._AC_UY218_.jpg",
+    "desc": "Water-resistant jacket with breathable fabric and a comfortable hood.",
+    "status": "Available"
+  },
+  {
+    "id": 3308,
+    "name": "H&M Girls' Puffer Jacket",
+    "asin": "B08X8Y7F8Q",
+    "img": "https://m.media-amazon.com/images/I/71FH9S5QXjL._AC_UY218_.jpg",
+    "desc": "Warm puffer jacket with faux-fur trim for chilly outdoor days.",
+    "status": "Available"
+  }
+]

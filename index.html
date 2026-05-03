@@ -647,6 +647,8 @@
     let wishlist = JSON.parse(localStorage.getItem('luxe_wishlist')) || [];
     let currentFilter = 'All';
     let currentSubcategory = null;
+    let categoryKeys = [];
+    let categoryGroups = {};
     let activeProductId = null;
     let searchTimeout;
     let currentPage = 1;
@@ -683,33 +685,42 @@
             const manifestRes = await fetch('index.json');
             if (!manifestRes.ok) throw new Error('Failed to fetch index.json');
             const manifest = await manifestRes.json();
-            const categoryList = manifest.categories; // [{ name, file }, ...]
+            const categoryList = manifest.categories;
 
-            // ── Step 2: fetch all category files in parallel ──────────
+            categoryKeys = categoryList.map(cat => cat.name);
+            categoryGroups = {};
+            const fileEntries = categoryList.flatMap(cat => {
+                categoryGroups[cat.name] = cat.subcategories.map(sub => sub.name);
+                return cat.subcategories.map(sub => ({ category: cat.name, subcategory: sub.name, file: sub.file }));
+            });
+
+            // ── Step 2: fetch all subcategory files in parallel ─────
             const results = await Promise.all(
-                categoryList.map(async ({ name, file }) => {
+                fileEntries.map(async ({ category, subcategory, file }) => {
                     const res = await fetch(file);
                     if (!res.ok) throw new Error(`Failed to fetch ${file}`);
                     const products = await res.json();
-                    return { name, products };
+                    return { category, subcategory, products };
                 })
             );
 
             // ── Step 3: assemble LUXE_VAULT from the results ──────────
             LUXE_VAULT = {};
-            results.forEach(({ name, products }) => {
-                LUXE_VAULT[name] = products;
+            results.forEach(({ category, subcategory, products }) => {
+                LUXE_VAULT[category] = LUXE_VAULT[category] || {};
+                LUXE_VAULT[category][subcategory] = products;
             });
 
-            productCatalog = Object.keys(LUXE_VAULT)
-                .flatMap(cat => LUXE_VAULT[cat].map(p => ({ ...p, cat })));
+            productCatalog = results.flatMap(({ category, subcategory, products }) =>
+                products.map(p => ({ ...p, cat: category, subcat: subcategory }))
+            );
 
             // Build the initial shuffled All-view order
             buildAllViewOrder();
 
             // Pre-build shuffled orders for each specific category tab
             window.categoryViewOrders = {};
-            getCategoryKeys().filter(k => k !== 'All' && k !== 'Saved').forEach(buildCategoryOrder);
+            categoryKeys.forEach(buildCategoryOrder);
 
             initCategories();
             renderProducts();
@@ -763,38 +774,29 @@
         window.allViewOrder = chunked;
     }
 
-    const categoryGroups = {
-        Men: { dataKey: 'Mens', subcategories: ['Shirts', 'Jeans', 'Outerwear', 'Workwear', 'Accessories'] },
-        Women: { dataKey: 'Womens', subcategories: ['Dresses', 'Tops', 'Active', 'Loungewear', 'Accessories'] },
-        Boys: { dataKey: 'Kids', subcategories: ['T-Shirts', 'Jeans', 'Jackets', 'Athletic', 'Essentials'] },
-        Girls: { dataKey: 'Kids', subcategories: ['Dresses', 'Tops', 'Leggings', 'Outerwear', 'Accessories'] },
-        Activewear: { dataKey: 'Activewear', subcategories: [] }
-    };
-
     const subcategoryKeywords = {
-        'Shirts': ['shirt','t-shirt','tee'],
-        'Jeans': ['jean','denim'],
-        'Outerwear': ['jacket','coat','hoodie','fleece','sweater','cardigan'],
-        'Workwear': ['work','dress','business','office','suit','blazer'],
-        'Accessories': ['belt','bag','hat','cap','scarf','watch','jewelry','sunglass'],
-        'Dresses': ['dress','skirt','gown'],
-        'Tops': ['top','blouse','tee','tank','shirt'],
-        'Active': ['active','athletic','workout','performance','training','running'],
-        'Loungewear': ['lounge','sweatshirt','sweatpant','pajama','hoodie','cozy'],
-        'T-Shirts': ['shirt','t-shirt','tee'],
-        'Jackets': ['jacket','coat','parka','hoodie','fleece'],
-        'Athletic': ['sports','athletic','training','active','workout'],
-        'Essentials': ['essential','pack','set','underwear','socks','basic'],
-        'Leggings': ['legging','jeggings','tights']
+        'Shirts': ['shirt', 't-shirt', 'tee'],
+        'Jeans': ['jean', 'denim'],
+        'Outerwear': ['jacket', 'coat', 'hoodie', 'fleece', 'sweater', 'cardigan'],
+        'Workwear': ['work', 'dress', 'business', 'office', 'suit', 'blazer'],
+        'Accessories': ['belt', 'bag', 'hat', 'cap', 'scarf', 'watch', 'jewelry', 'sunglass'],
+        'Dresses': ['dress', 'skirt', 'gown'],
+        'Tops': ['top', 'blouse', 'tee', 'tank', 'shirt'],
+        'Active': ['active', 'athletic', 'workout', 'performance', 'training', 'running'],
+        'Loungewear': ['lounge', 'sweatshirt', 'sweatpant', 'pajama', 'hoodie', 'cozy'],
+        'T-Shirts': ['shirt', 't-shirt', 'tee'],
+        'Jackets': ['jacket', 'coat', 'parka', 'hoodie', 'fleece'],
+        'Athletic': ['sports', 'athletic', 'training', 'active', 'workout'],
+        'Essentials': ['essential', 'pack', 'set', 'underwear', 'socks', 'basic'],
+        'Leggings': ['legging', 'jeggings', 'tights']
     };
 
     function getCategoryKeys() {
-        return ['All', 'Men', 'Women', 'Boys', 'Girls', 'Activewear', 'Saved'];
+        return ['All', ...categoryKeys, 'Saved'];
     }
 
     function toDataCategory(cat) {
-        if (cat === 'All' || cat === 'Saved') return cat;
-        return categoryGroups[cat]?.dataKey || cat;
+        return cat;
     }
 
     // ── Build a fresh shuffled order for a specific category view ──
@@ -802,11 +804,9 @@
     // The top 4 that appear on page 1 get the "LATEST" badge.
     function buildCategoryOrder(cat) {
         window.categoryViewOrders = window.categoryViewOrders || {};
-        const dataKey = toDataCategory(cat);
-        if (!LUXE_VAULT[dataKey]) return;
-        window.categoryViewOrders[cat] =
-            (LUXE_VAULT[dataKey] || []).map(p => ({ ...p, cat: dataKey }))
-                                   .sort(() => Math.random() - 0.5);
+        window.categoryViewOrders[cat] = productCatalog
+            .filter(p => p.cat === cat)
+            .sort(() => Math.random() - 0.5);
     }
 
     const prettyNames = { 'All': 'Home', 'Men': 'Men', 'Women': 'Women', 'Boys': 'Boys', 'Girls': 'Girls', 'Activewear': 'Activewear', 'Saved': 'Saved' };
@@ -833,10 +833,10 @@
                 btn.type = 'button';
                 btn.className = 'cat-chip cat-dropdown-trigger ' + (key === currentFilter ? 'active-chip ' : '') + 'bg-gray-100 dark:bg-gray-800/50 text-gray-500 whitespace-nowrap px-4 py-1.5 rounded-lg font-bold text-[9px] uppercase tracking-widest transition-all';
                 btn.dataset.cat = key;
-                btn.innerHTML = `${prettyNames[key] || key}${categoryGroups[key] && categoryGroups[key].subcategories?.length ? ' <i class="fas fa-chevron-down text-[8px]"></i>' : ''}`;
+                btn.innerHTML = `${prettyNames[key] || key}${categoryGroups[key]?.length ? ' <i class="fas fa-chevron-down text-[8px]"></i>' : ''}`;
                 btn.addEventListener('click', function(e) {
                     e.stopPropagation();
-                    if (categoryGroups[key] && categoryGroups[key].subcategories?.length) {
+                    if (categoryGroups[key]?.length) {
                         wrapper.classList.toggle('open');
                     }
                     filterCategory(key, this);

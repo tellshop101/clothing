@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3105,
+    "name": "Nike Women's Dri-FIT Training Top",
+    "asin": "B07SS2QP4Q",
+    "img": "https://m.media-amazon.com/images/I/61PlQvF8YTL._AC_UY218_.jpg",
+    "desc": "Breathable workout top with sweat-wicking technology for gym sessions.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3106,
+    "name": "Adidas Women's Believe This 2.0 Leggings",
+    "asin": "B07PKQRSHM",
+    "img": "https://m.media-amazon.com/images/I/71UdLVj8oUL._AC_UY218_.jpg",
+    "desc": "High-rise leggings with supportive stretch for training and running.",
+    "status": "Available"
+  }
+]

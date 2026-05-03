@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3203,
+    "name": "Levi's Boys' 511 Slim Fit Jeans",
+    "asin": "B07X9B5P5K",
+    "img": "https://m.media-amazon.com/images/I/71AX8fPHHyL._AC_UY218_.jpg",
+    "desc": "Slim fit jeans with stretch for a comfortable fit that moves with them.",
+    "status": "Amazon's Choice"
+  },
+  {
+    "id": 3204,
+    "name": "Wrangler Boys' Regular Fit Jeans",
+    "asin": "B08BL7H5C4",
+    "img": "https://m.media-amazon.com/images/I/71V7gx6R8CL._AC_UY218_.jpg",
+    "desc": "Classic straight-leg denim with an adjustable waistband for growing kids.",
+    "status": "Available"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3205,
+    "name": "Columbia Boys' Steens Mountain Fleece Jacket",
+    "asin": "B07DX93LJY",
+    "img": "https://m.media-amazon.com/images/I/81I1k7-6p1L._AC_UY218_.jpg",
+    "desc": "Warm fleece jacket with zip pockets for cooler outdoor adventures.",
+    "status": "Available"
+  },
+  {
+    "id": 3206,
+    "name": "The North Face Boys' Rain Jacket",
+    "asin": "B07H9PFYP3",
+    "img": "https://m.media-amazon.com/images/I/71KZtzbC9mL._AC_UY218_.jpg",
+    "desc": "Waterproof rain jacket with adjustable hood and full storm flap.",
+    "status": "Amazon's Choice"
+  }
+]

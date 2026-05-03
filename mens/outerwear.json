@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2005,
+    "name": "Columbia Men's Steens Mountain Fleece Jacket",
+    "asin": "B001EQCO7S",
+    "img": "https://m.media-amazon.com/images/I/71aRxTcFaHL._AC_UY218_.jpg",
+    "desc": "Soft fleece jacket with zip pockets for lightweight warmth.",
+    "status": "Available"
+  },
+  {
+    "id": 2006,
+    "name": "The North Face Men's Apex Bionic Jacket",
+    "asin": "B07D6H3P2Y",
+    "img": "https://m.media-amazon.com/images/I/71Ua8uK7thL._AC_UY218_.jpg",
+    "desc": "Windproof softshell jacket ideal for hiking, travel, and outdoor layering.",
+    "status": "Amazon's Choice"
+  }
+]

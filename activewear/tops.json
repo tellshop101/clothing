@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3401,
+    "name": "Nike Dri-FIT Training Top",
+    "asin": "B08MJ34Q7Y",
+    "img": "https://m.media-amazon.com/images/I/71snJd8F2VL._AC_UY218_.jpg",
+    "desc": "Breathable training shirt with sweat-wicking Dri-FIT fabric.",
+    "status": "Best Seller"
+  },
+  {
+    "id": 3402,
+    "name": "Under Armour Tech 2.0 Short Sleeve",
+    "asin": "B07FK7Q1R5",
+    "img": "https://m.media-amazon.com/images/I/71TDbNHIDlL._AC_UY218_.jpg",
+    "desc": "Lightweight performance tee designed for everyday workouts.",
+    "status": "Available"
+  }
+]

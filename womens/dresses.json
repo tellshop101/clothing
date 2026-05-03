@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3101,
+    "name": "Lulus Women's Satin Slip Dress",
+    "asin": "B096R9YR5B",
+    "img": "https://m.media-amazon.com/images/I/61d7H3sLOwL._AC_UL320_.jpg",
+    "desc": "Elegant satin slip dress with adjustable straps for evenings and special occasions.",
+    "status": "Available"
+  },
+  {
+    "id": 3102,
+    "name": "GRACE KARIN Women's Formal Bodycon Midi Dress",
+    "asin": "B0C1FKYLTV",
+    "img": "https://m.media-amazon.com/images/I/51CpIWF6asL._AC_UL320_.jpg",
+    "desc": "Chic work-to-evening midi dress with a flattering fitted silhouette.",
+    "status": "Best Seller"
+  }
+]

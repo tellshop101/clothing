@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3207,
+    "name": "Under Armour Boys' Athletic Shorts",
+    "asin": "B08L3KP2W4",
+    "img": "https://m.media-amazon.com/images/I/71RdALfCCFL._AC_UY218_.jpg",
+    "desc": "Lightweight shorts with moisture-wicking fabric for sports and activity.",
+    "status": "Available"
+  },
+  {
+    "id": 3208,
+    "name": "Adidas Boys' Tiro Track Pants",
+    "asin": "B09VKXQ7NR",
+    "img": "https://m.media-amazon.com/images/I/71cH2IYFe-L._AC_UY218_.jpg",
+    "desc": "Classic track pants with three stripes and soft performance fabric.",
+    "status": "Best Seller"
+  }
+]
